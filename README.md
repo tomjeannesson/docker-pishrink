@@ -1,4 +1,4 @@
-# Docker-PiShrink [![Travis](https://img.shields.io/travis/y4roc/Docker-PiShrink.svg?branch=mast&style=flat-square)](https://travis-ci.org/y4roc/Docker-PiShrink)
+# Docker-PiShrink
 
 Docker-Image to shrink your Pi-Image in Docker without VirtualBox.
 
@@ -9,18 +9,18 @@ Docker-Image to shrink your Pi-Image in Docker without VirtualBox.
 ### Step 2: Clone this repository
 
   ``` bash
-  git clone https://github.com/y4roc/Docker-PiShrink
-  cd Docker-PiShrink
+  git clone git@github.com:tomjeannesson/docker-pishrink.git
+  cd docker-pishrink
   ```
   
 ## Usage
 
-1. Start the Docker-Service.
-2. Copy your Image in folder `Docker-PiShrink` and open this folder in your terminal.
+1. Start docker.
+2. Copy your Image in folder `docker-pishrink` and open this folder in your terminal.
 3. Execute `docker.sh` and wait a little bit.
-4. Start `pishrink <./myImage.img>` and your image will be much smaller.
+4. Start `pishrink <raspi-image.img>` and your image will be much smaller.
 5. Exit the docker container.
 
 ## Informations
 
-It tested with MacOS X 10.13.6, Docker for Mac 18.03.1-ce and Compose 1.21.1.
+I tested with MacOS Sonomoa 14.6.1
